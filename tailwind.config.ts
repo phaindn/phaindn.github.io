@@ -8,6 +8,16 @@ const config: Config = {
 	],
 	theme: {
 		fontSize: {
+			hero: ['58px', '70px'],
+			h1: ['48px', {
+				fontWeight: 'bold',
+				lineHeight: '1.5',
+			}],
+			subhead: ['32px', {
+				fontWeight: '400',
+				lineHeight: '1.5',
+			}],
+
 			xxxs: ['6px', '1.5'],
 			xxs: ['8px', '1.5'],
 			xs: ['12px', '1.5'],
