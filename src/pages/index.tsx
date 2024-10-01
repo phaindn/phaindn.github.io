@@ -1,9 +1,8 @@
-import AboutMe from "@/app/views/home/AboutMe";
-import Contacts from "@/app/views/home/Contacts";
+import Introduce from "@/app/views/home/Introduce";
 import Footer from "@/app/views/home/Footer";
 import Header from "@/app/views/home/Header";
 import Projects from "@/app/views/home/Projects";
-import ShowCases from "@/app/views/home/ShowCases";
+import TechStacks from "@/app/views/home/TechStacks";
 import Head from "next/head";
 
 export default function Home() {
@@ -13,10 +12,9 @@ export default function Home() {
         <title>{`Felixx's Portfolio`}</title>
       </Head>
       <Header />
-      <ShowCases />
+      <Introduce />
+      <TechStacks />
       <Projects />
-      <AboutMe />
-      <Contacts />
       <Footer />
     </>
   );
