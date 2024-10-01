@@ -1,0 +1,12 @@
+@tailwind base;
+
+@layer base {
+	body {
+		@apply relative min-h-screen mx-auto overflow-x-hidden overflow-y-auto;
+		max-width: 1920px;
+	}
+
+	svg {
+		flex-shrink: 0;
+	}
+}

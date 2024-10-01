@@ -1,13 +1,13 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    fontSize: {
+	content: [
+		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+	],
+	theme: {
+		fontSize: {
 			xxxs: ['6px', '1.5'],
 			xxs: ['8px', '1.5'],
 			xs: ['12px', '1.5'],
@@ -19,8 +19,8 @@ const config: Config = {
 			xxxl: ['40px', '1.5'],
 			xxxxl: ['48px', '1.5'],
 		},
-    spacing: {
-      0: '0',
+		spacing: {
+			0: '0',
 			0.5: '2px',
 			1: '4px',
 			1.5: '6px',
@@ -48,14 +48,22 @@ const config: Config = {
 			40: '160px',
 			44: '176px',
 			48: '192px',
-    },
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
+		},
+		extend: {
+			lineHeight: {
+				default: '150%',
+			},
+			colors: {
+				background: "var(--color-background)",
+				content: "var(--color-content)",
+				nav: "var(--color-text-nav)",
+				heading: "var(--color-solid-heading)",
+				green: "var(--color-green)",
+				success: "var(--color-success)",
+				gradient: "var(--linear-gradient)",
+			},
+		},
+	},
+	plugins: [],
 };
 export default config;

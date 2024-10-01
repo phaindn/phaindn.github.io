@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import { manropeFont } from "./fonts";
+import "@/app/styles/portfolio.css";
+import '@/app/styles/global.css'
+import { poppinsFont } from "@/app/fonts";
 
 export const metadata: Metadata = {
   title: "Felixx Nguyen",
@@ -16,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${manropeFont.className} antialiased`}
+        className={`${poppinsFont.className} antialiased`}
       >
         {children}
       </body>

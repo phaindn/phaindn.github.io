@@ -1,17 +1,19 @@
+import Image from "next/image";
+
 export default function NotFoundPage() {
 	return (
-		<div className="px-4 flex justify-center w-full mb-14 lg:mb-[132px] lg:ml-[30px]">
-			<div className="flex flex-col items-center mt-[50px] lg:mt-[72px]">
-				<img src="/images/404.png" alt="error page" />
-				<span className="block mt-8 text-2xl font-medium text-center leading-150">
-					Đường dẫn bạn yêu cầu không tồn tại.
-				</span>
+		<div className="px-4 flex items-center justify-center w-full h-[100vh]">
+			<div className="flex flex-col items-center">
+				<Image src="/images/404.gif" width="320" height="240" alt="error page" />
+				<h2 className="block mt-2">
+					Requested URL not exist.
+				</h2>
 				<a
 					href="/"
-					className="mt-[34px] font-semibold text-primary-60 text-sm leading-4"
+					className="mt-3 font-semibold text-primary-60 text-sm leading-4"
 				>
 					<img src="images/svg/arrowBack.svg" alt="" className="inline mr-2" />
-					Quay lại trang chủ
+					Back to homepage
 				</a>
 			</div>
 		</div>

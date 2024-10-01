@@ -1,0 +1,9 @@
+.logo:not(.monochrome) {
+    background: var(--gradient-linear);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.monochrome {
+    color: var(--color-solid-heading);
+}
