@@ -7,7 +7,9 @@
   --color-content: #666666;
   --color-green: #018C0F;
   --color-success: #D7FFE0;
-  --gradient-linear: linear-gradient(to right, #13B0F5 3%, #E70FAA 100%);
+  --color-primary-1: #2542c5;
+  --color-primary-2: #800404;
+  --gradient-linear: linear-gradient(to right, var(--color-primary-1), var(--color-primary-2) 100%);
 }
 
 @media (prefers-color-scheme: dark) {

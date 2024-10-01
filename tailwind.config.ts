@@ -8,7 +8,10 @@ const config: Config = {
 	],
 	theme: {
 		fontSize: {
-			hero: ['58px', '70px'],
+			hero: ['58px', {
+				fontWeight: 'bold',
+				lineHeight: '70px',
+			}],
 			h1: ['48px', {
 				fontWeight: 'bold',
 				lineHeight: '1.5',
@@ -70,7 +73,8 @@ const config: Config = {
 				heading: "var(--color-solid-heading)",
 				green: "var(--color-green)",
 				success: "var(--color-success)",
-				gradient: "var(--linear-gradient)",
+				primary1: "var(--color-primary-1)",
+				primary2: "var(--color-primary-2)",
 			},
 		},
 	},

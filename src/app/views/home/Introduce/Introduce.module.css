@@ -1,0 +1,19 @@
+.figure {
+    @apply flex bg-gradient-to-r from-primary1 to-primary2;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2px;
+    width: 200px;
+    height: 200px;
+}
+
+.figure img {
+    border-radius: inherit;
+}
+
+@screen lg {
+    .figure {
+        width: 350px;
+        height: 350px;
+    }
+}
