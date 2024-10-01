@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NotFoundPage() {
 	return (
@@ -8,13 +9,13 @@ export default function NotFoundPage() {
 				<h2 className="block mt-2">
 					Requested URL not exist.
 				</h2>
-				<a
+				<Link
 					href="/"
 					className="mt-3 font-semibold text-primary-60 text-sm leading-4"
 				>
 					<img src="images/svg/arrowBack.svg" alt="" className="inline mr-2" />
 					Back to homepage
-				</a>
+				</Link>
 			</div>
 		</div>
 	)
