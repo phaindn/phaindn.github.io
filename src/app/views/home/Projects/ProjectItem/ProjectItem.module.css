@@ -1,0 +1,13 @@
+.container {
+    @apply rounded-[20px] flex flex-col;
+    box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.body {
+    @apply p-7 pb-0;
+}
+
+.footer {
+
+}

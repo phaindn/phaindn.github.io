@@ -46,7 +46,7 @@ const TECHNOLOGIES = [
 
 export default function TechStacks() {
 	return (
-		<section className="container mx-auto py-10 lg:pt-30 lg:pb-20 flex flex-col items-center text-center">
+		<section className="container mx-auto py-15 lg:pt-44 lg:pb-40 flex flex-col items-center text-center">
 			<h1 className="text-h1 text-heading">My Tech Stack</h1>
 			<p className="text-subhead text-content mt-4 lg:mt-10">Technologies that I’ve been working with recently</p>
 			<ul className="flex flex-wrap items-center justify-between mt-10 gap-x-10 gap-y-8 lg:mt-15 lg:gap-x-20 lg:gap-y-16">
