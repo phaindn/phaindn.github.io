@@ -14,7 +14,7 @@ const PROJECTS: IProject[] = [
 		name: "GemPages",
 		description: "An effortless & conversion-focused page builder for Shopify stores. GemPages helps you turn more visitors into paying customers.",
 		thumbnail: "/images/projects/gempages.net.webp",
-		technologies: ["Vue", "TypeScript", "SASS", "jQuery"],
+		technologies: ["Vue", "TypeScript", "SASS", "jQuery", "Jest"],
 		previewUrl: "https://app.gempages.net",
 	},
 	{
@@ -26,10 +26,10 @@ const PROJECTS: IProject[] = [
 	},
 	{
 		name: "Cốc Cốc Search pages",
-		description: "Rủng Rỉnh is a realiable cashback service at Vietnam, founded in 2018 and managed by Cốc Cốc Company",
-		thumbnail: "/images/projects/search.coccoc.com.png",
+		description: "This project held many side pages of Cốc Cốc Search like doodle, term of use, privacy policy, etc.",
+		thumbnail: "/images/projects/search-pages.png",
 		technologies: ["React", "Stylus", "Redux"],
-		previewUrl: "https://search.coccoc.com/",
+		previewUrl: "https://search.coccoc.com/about-us",
 	},
 	{
 		name: "Download video & audio Extension",
@@ -45,21 +45,33 @@ const PROJECTS: IProject[] = [
 	},
 	{
 		name: "VulHunter",
-		description: "",
+		description: "This is vulnerability scanning system which help one to recognize and detect security issue on other systems.",
 		thumbnail: "/images/projects/vulhunter.png",
 		technologies: ["React", "SASS", "Redux"],
 	},
 	{
 		name: "Portfolio",
-		description: "",
+		description: "This is my portfolio project",
 		thumbnail: "/images/projects/portfolio.png",
-		technologies: ["Nextjs", "TypeScript"],
+		technologies: ["Nextjs", "TypeScript", "Tailwind"],
+		previewUrl: "https://phaindn.github.io/",
+		sourceUrl: "https://github.com/phaindn/phaindn.github.io"
 	},
 	{
-		name: "Chatbot simulate Ho Chi Minh president",
-		description: "",
-		thumbnail: "/images/projects/portfolio.png",
-		technologies: ["Nuxtjs", "SCSS", "Golang", "PostgreSQL", "Python", "VnCoreNLP"],
+		name: "My Development Note",
+		description: "This project is my document-like note where I wrote down what I've learnt, my work experiences.",
+		thumbnail: "/images/projects/devnote.png",
+		technologies: ["Vitepress", "Vue", "TypeScript", "Markdown"],
+		previewUrl: "https://phaindn.github.io/blog",
+		sourceUrl: "https://github.com/phaindn/blog"
+	},
+	{
+		name: "Virtual Ho Chi Minh chatbot",
+		description: "An AI as a chatbot with data extracted from \"Hồ Chí Minh toàn tập\" to answer questions about our beloved president.",
+		thumbnail: "/images/projects/capstone.png",
+		technologies: ["Nuxtjs", "SCSS", "Golang", "PostgreSQL", "Python", "VnCoreNLP", "Rasa"],
+		previewUrl: "https://www.facebook.com/profile.php?id=100064110701345",
+		sourceUrl: "https://gitlab.com/virtual-hcm"
 	},
 ]
 

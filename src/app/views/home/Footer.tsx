@@ -5,7 +5,7 @@ import Navigation from '@/components/Navigation/Navigation'
 
 export default function Footer() {
 	return (
-		<footer className="container mx-auto text-heading">
+		<footer className="container mx-auto text-heading pb-6 lg:pb-12">
             <div className="flex items-center">
                 <Logo monochrome />
                 <div className="info flex gap-7 ml-auto">
